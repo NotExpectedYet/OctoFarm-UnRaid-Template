@@ -48,12 +48,12 @@
 	</Networking>
 	<Data>
 		<Volume>
-			<HostDir>/mnt/user/appdata/octofarm/logs</HostDir>
+			<HostDir>/mnt/user/apps/OctoFarm/logs</HostDir>
 			<ContainerDir>/data/logs</ContainerDir>
 			<Mode>rw</Mode>
 		</Volume>
 		<Volume>
-			<HostDir>/mnt/user/appdata/octofarm/scripts</HostDir>
+			<HostDir>/mnt/user/apps/OctoFarm/scripts</HostDir>
 			<ContainerDir>/scripts</ContainerDir>
 			<Mode>rw</Mode>
 		</Volume>
