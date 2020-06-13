@@ -17,7 +17,7 @@
 	<Privileged>false</Privileged>
 	<Support>https://github.com/NotExpectedYet/OctoFarm/issues</Support>
 	<Project>https://octofarm.net/</Project>
-	<Overview>OctoFarm is an web server and client combination for unifying multiple instances of Octoprint.</Overview>
+	<Overview>OctoFarm is a web server and client combination for unifying multiple instances of Octoprint.</Overview>
 	<Category>Tools:</Category>
 	<WebUI>http://[IP]:[PORT:4000]</WebUI>
 	<TemplateURL>https://raw.githubusercontent.com/NotExpectedYet/OctoFarm-UnRaid-Template/master/octofarm/octofarm.xml</TemplateURL>
