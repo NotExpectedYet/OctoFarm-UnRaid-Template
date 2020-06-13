@@ -44,12 +44,12 @@
 			<Mode>rw</Mode>
 		</Volume>
 		<Volume>
-			<HostDir>/mnt/user/appdata/octofarm-mono/logs</HostDir>
+			<HostDir>/mnt/user/apps/OctoFarm-mono/logs</HostDir>
 			<ContainerDir>/data/logs</ContainerDir>
 			<Mode>rw</Mode>
 		</Volume>
 		<Volume>
-			<HostDir>/mnt/user/appdata/octofarm-mono/scripts</HostDir>
+			<HostDir>/mnt/user/apps/OctoFarm-mono/scripts</HostDir>
 			<ContainerDir>/scripts</ContainerDir>
 			<Mode>rw</Mode>
 		</Volume>
