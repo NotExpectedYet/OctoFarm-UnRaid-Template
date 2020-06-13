@@ -39,7 +39,7 @@
 	</Networking>
 	<Data>
 		<Volume>
-			<HostDir>/mnt/user/appdata/octofarm-mono/db</HostDir>
+			<HostDir>/mnt/user/appdata/OctoFarm-mono/db</HostDir>
 			<ContainerDir>/data/db</ContainerDir>
 			<Mode>rw</Mode>
 		</Volume>
