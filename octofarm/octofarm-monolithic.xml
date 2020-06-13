@@ -27,7 +27,7 @@
 	<ExtraParams/>
 	<PostArgs/>
 	<CPUset/>
-	<DonateText>Patreon</DonateText>
+	<DonateText>Support the development on Patreon:</DonateText>
 	<DonateLink>https://www.patreon.com/NotExpectedYet</DonateLink>
 	<Networking>
 		<Mode>bridge</Mode>
