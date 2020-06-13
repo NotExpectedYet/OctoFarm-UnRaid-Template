@@ -17,7 +17,8 @@
 	<Privileged>false</Privileged>
 	<Support>https://github.com/NotExpectedYet/OctoFarm/issues</Support>
 	<Project>https://octofarm.net/</Project>
-	<Overview>OctoFarm is a web server and client combination for unifying multiple instances of Octoprint.</Overview>
+	<Overview>OctoFarm is a web server and client combination for unifying multiple instances of Octoprint.
+	You can manage and monitor as many instances as you want from a single interface giving you full control over your 3D printer farm. This image also includes a built-in self-contained MongoDB instance.</Overview>
 	<Category>Tools:</Category>
 	<WebUI>http://[IP]:[PORT:4000]</WebUI>
 	<TemplateURL>https://raw.githubusercontent.com/NotExpectedYet/OctoFarm-UnRaid-Template/master/octofarm/octofarm.xml</TemplateURL>
@@ -27,7 +28,6 @@
 	<CPUset/>
 	<DonateText>Patreon</DonateText>
 	<DonateLink>https://www.patreon.com/NotExpectedYet</DonateLink>
-	<Description>OctoFarm is an easy to setup and install web server and client for unifying multiple instances of Octoprint. You can manage and monitor as many instances as you want from a single interface giving you full control over your 3D printer farm.</Description>
 	<Networking>
 		<Mode>bridge</Mode>
 		<Publish>
