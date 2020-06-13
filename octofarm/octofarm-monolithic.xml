@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-	<Name>OctoFarm</Name>
+	<Name>OctoFarm Monlithic</Name>
 	<Repository>octofarm/octofarm:monolithic-latest</Repository>
 	<Branch>
 		<Tag>monolithic-latest</Tag>
