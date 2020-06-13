@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+	<Date>2020-06-13</Date>
+	<Category>Tools:Utilities</Category>
+	<Name>octofarm-monolithic</Name>
+	<Project>https://github.com/NotExpectedYet/OctoFarm</Project>
+	<Icon>https://github.com/NotExpectedYet/OctoFarm/raw/master/views/android-chrome-512x512.png</Icon>
+	<Changes>
+	</Changes>
+	<Overview>
+			OctoFarm is an web server and client combination for unifying multiple instances of Octoprint.
+	</Overview>
+	<Description>
+			OctoFarm is an easy to setup and install web server and client for unifying multiple instances of Octoprint. You can manage and monitor as many instances as you want from a single interface giving you full control over your 3D printer farm.
+	</Description>
+	<Registry>https://hub.docker.com/r/octofarm/octofarm</Registry>
+	<GitHub>https://github.com/NotExpectedYet/OctoFarm</GitHub>
+	<Repository>octofarm/octofarm</Repository>
+	<Branch>
+		<Tag>latest</Tag>
+		<TagDescription>Latest stable release of OctoFarm.</TagDescription>
+	</Branch>
+	<Branch>
+		<Tag>dev</Tag>
+		<TagDescription>Latest beta release of OctoFarm, including a built-in MongoDB instance. Use with caution!</TagDescription>
+	</Branch>
+	<TemplateURL>https://raw.githubusercontent.com/NotExpectedYet/OctoFarm-UnRaid-Template/master/octofarm/octofarm.xml</TemplateURL>
+	<BindTime>true</BindTime>
+	<Privileged>false</Privileged>
+	   <Config 
+       Type="Variable" 
+       Name="MongoDB details" 
+       Target="MONGO" 
+       Default="mongodb://mongo/octofarm" 
+       Description="mongodb://username:password@host:port/db" 
+       Mask="false" 
+       Display="always" 
+       Required="true">mongodb://mongo/octofarm</Config>
+	<Networking>
+		<Mode>bridge</Mode>
+		<Publish>
+			<Port>
+				<HostPort>4000</HostPort>
+				<ContainerPort>4000</ContainerPort>
+				<Protocol>tcp</Protocol>
+			</Port>
+		</Publish>
+	</Networking>
+	<Data>
+		<Volume>
+			<HostDir>/mnt/user/appdata/octofarm/logs</HostDir>
+			<ContainerDir>/data/logs</ContainerDir>
+			<Mode>rw</Mode>
+		</Volume>
+		<Volume>
+			<HostDir>/mnt/user/appdata/octofarm/scripts</HostDir>
+			<ContainerDir>/scripts</ContainerDir>
+			<Mode>rw</Mode>
+		</Volume>
+	</Data>
+	<WebUI>http://[IP]:[PORT:4000]</WebUI>
+	<ExtraParams></ExtraParams>
+</Container>
