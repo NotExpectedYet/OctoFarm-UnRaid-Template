@@ -2,7 +2,7 @@
 <Container>
 	<Date>2020-06-13</Date>
 	<Category>Tools:Utilities</Category>
-	<Name>octofarm-monolithic</Name>
+	<Name>octofarm</Name>
 	<Project>https://github.com/NotExpectedYet/OctoFarm</Project>
 	<Icon>https://github.com/NotExpectedYet/OctoFarm/raw/master/views/android-chrome-512x512.png</Icon>
 	<Changes>
