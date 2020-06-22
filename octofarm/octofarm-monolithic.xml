@@ -47,7 +47,7 @@
 		</Volume>
 		<Volume>
 			<HostDir>/mnt/user/appdata/OctoFarm/logs</HostDir>
-			<ContainerDir>/data/logs</ContainerDir>
+			<ContainerDir>/app/logs</ContainerDir>
 			<Mode>rw</Mode>
 		</Volume>
 		<Volume>
