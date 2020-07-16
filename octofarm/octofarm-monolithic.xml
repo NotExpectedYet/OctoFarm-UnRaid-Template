@@ -55,6 +55,11 @@
 			<ContainerDir>/scripts</ContainerDir>
 			<Mode>rw</Mode>
 		</Volume>
+		<Volume>
+			<HostDir>/mnt/user/appdata/OctoFarm/thumbnails</HostDir>
+			<ContainerDir>/app/views/images/historyCollection</ContainerDir>
+			<Mode>rw</Mode>
+		</Volume>
 	</Data>
 	<Labels/>
 	<Config
@@ -87,6 +92,16 @@
 		Display="always"
 		Required="false"
 		Mask="false">/mnt/user/appdata/octofarm/scripts</Config>
+	<Config
+		Name="thumbnails"
+		Target="/app/views/images/historyCollection"
+		Default=""
+		Mode="rw"
+		Description="Thumbnail store for history"
+		Type="Path"
+		Display="always"
+		Required="false"
+		Mask="false">/mnt/user/appdata/OctoFarm/thumbnails</Config>
 	<Config
 		Name="Web UI"
 		Target="4000"
