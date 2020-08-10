@@ -54,7 +54,7 @@
 			<Mode>rw</Mode>
 		</Volume>
 		<Volume>
-			<HostDir>/mnt/user/appdata/OctoFarm/thumbnails</HostDir>
+			<HostDir>/mnt/user/appdata/OctoFarm/images</HostDir>
 			<ContainerDir>/app/views/images/historyCollection</ContainerDir>
 			<Mode>rw</Mode>
 		</Volume>
@@ -87,7 +87,7 @@
 		Required="false"
 		Mask="false">/mnt/user/appdata/octofarm/scripts</Config>
 	<Config
-		Name="thumbnails"
+		Name="images"
 		Target="/app/views/images/historyCollection"
 		Default=""
 		Mode="rw"
@@ -95,7 +95,7 @@
 		Type="Path"
 		Display="always"
 		Required="false"
-		Mask="false">/mnt/user/appdata/OctoFarm/thumbnails</Config>
+		Mask="false">/mnt/user/appdata/OctoFarm/images</Config>
 	<Config
 		Name="MongoDB details"
 		Target="MONGO"
