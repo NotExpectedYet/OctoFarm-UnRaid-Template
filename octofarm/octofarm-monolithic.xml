@@ -33,6 +33,7 @@
 	<CPUset/>
 	<DonateText>Support the development on Patreon:</DonateText>
 	<DonateLink>https://www.patreon.com/NotExpectedYet</DonateLink>
+	<Description/>
 	<Networking>
 		<Mode>bridge</Mode>
 		<Publish>
@@ -60,6 +61,7 @@
 			<Mode>rw</Mode>
 		</Volume>
 	</Data>
+	<Environment/>
 	<Labels/>
 	<Config
 		Name="database"
