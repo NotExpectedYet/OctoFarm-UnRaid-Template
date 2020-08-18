@@ -60,6 +60,11 @@
 			<ContainerDir>/scripts</ContainerDir>
 			<Mode>rw</Mode>
 		</Volume>
+		<Volume>
+			<HostDir>/mnt/user/appdata/OctoFarm/images</HostDir>
+			<ContainerDir>/app/images</ContainerDir>
+			<Mode>rw</Mode>
+		</Volume>
 	</Data>
 	<Environment/>
 	<Labels/>
@@ -93,6 +98,16 @@
 		Display="always"
 		Required="false"
 		Mask="false">/mnt/user/appdata/octofarm/scripts</Config>
+	<Config
+		Name="images"
+		Target="/app/images"
+		Default=""
+		Mode="rw"
+		Description="Thumbnail store for history"
+		Type="Path"
+		Display="always"
+		Required="false"
+		Mask="false">/mnt/user/appdata/OctoFarm/images</Config>
 	<Config
 		Name="Web UI"
 		Target="4000"
