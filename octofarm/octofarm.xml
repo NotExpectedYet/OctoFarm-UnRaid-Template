@@ -69,10 +69,10 @@
 	<Labels/>
 	<Config
 		Name="logs"
-		Target="/data/logs"
+		Target="/app/logs"
 		Default=""
 		Mode="rw"
-		Description="Container Path: /data/logs"
+		Description="Container Path: /app/logs"
 		Type="Path"
 		Display="always"
 		Required="false"
