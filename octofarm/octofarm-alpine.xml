@@ -92,7 +92,7 @@
 		Type="Path"
 		Display="always"
 		Required="false"
-		Mask="false">/mnt/user/appdata/OctoFarm/images</Config>
+		Mask="false">/mnt/user/appdata/octofarm/images</Config>
 	<Config
 		Name="MongoDB details"
 		Target="MONGO"
