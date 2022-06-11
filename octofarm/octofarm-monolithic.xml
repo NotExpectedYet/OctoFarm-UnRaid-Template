@@ -6,10 +6,6 @@
 		<Tag>monolithic-latest</Tag>
 		<TagDescription>Latest stable release of OctoFarm, including a built-in MongoDB instance.</TagDescription>
 	</Branch>
-	<Branch>
-		<Tag>monolithic-dev</Tag>
-		<TagDescription>Latest semi-stable development release of OctoFarm, including a built-in MongoDB instance. Use with caution!</TagDescription>
-	</Branch>
 	<Registry>https://hub.docker.com/r/octofarm/octofarm/</Registry>
 	<Network>bridge</Network>
 	<MyIP/>
