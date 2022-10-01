@@ -18,7 +18,7 @@
 	<Category>Tools:</Category>
 	<WebUI>http://[IP]:[PORT:4000]</WebUI>
 	<TemplateURL>https://raw.githubusercontent.com/NotExpectedYet/OctoFarm-UnRaid-Template/master/octofarm/octofarm.xml</TemplateURL>
-	<Icon>https://github.com/NotExpectedYet/OctoFarm/raw/master/server/assets/images/android-chrome-512x512.png</Icon>
+	<Icon>https://github.com/OctoFarm/OctoFarm/raw/master/server/assets/images/android-chrome-512x512.png</Icon>
 	<ExtraParams/>
 	<PostArgs/>
 	<CPUset/>
